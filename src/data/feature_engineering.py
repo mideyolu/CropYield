@@ -25,9 +25,3 @@ def engineer_features (df):
 
     return df
 
-
-# # Test the data cleaning function
-# if __name__ == "__main__":
-#     df = pd.read_csv('data/processed/cleaned_crop_data.csv')
-#     engineered_df = engineer_features(df)
-#     engineered_df.to_csv('data/processed/engineered_crop_data.csv', index=False)
