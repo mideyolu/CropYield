@@ -49,10 +49,3 @@ def clean_data(df):
 
 
     return df
-
-
-# # Test the data cleaning function
-# if __name__ == "__main__":
-#     df = pd.read_csv('data/raw/crop_yield_data.csv')
-#     cleaned_df = clean_data(df)
-#     cleaned_df.to_csv('data/processed/cleaned_crop_data.csv', index=False)

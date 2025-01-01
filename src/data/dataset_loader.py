@@ -20,8 +20,3 @@ def load_data(file_path):
 
     return df
 
-
-#Test the dataset loader
-# if __name__== "__main__":
-#     df = load_data('data/raw/crop_yield_data.csv')
-#     print(df.head())
